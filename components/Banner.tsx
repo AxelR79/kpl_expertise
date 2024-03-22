@@ -7,9 +7,9 @@ const Banner = () => {
     <div className="bg-grey h-110 flex justify-center">
       <div className="w-9/12 flex">
         <div className="w-1/2 relative flex flex-col justify-center">
-            <div className='border-black border-t-4 border-r-4 w-12 h-12 absolute top-16 right-0'></div>
+            <div className='border-black border-t-4 border-r-4 w-12 h-12 absolute top-8 right-0'></div>
             <h1 className="leading-tight font-montserrat text-6xl font-extrabold uppercase text-black px-8">"On ne choisit pas cette activité par hasard ..."</h1>
-            <div className='border-black border-b-4 border-l-4 w-12 h-12 absolute top-84 left-0'></div>
+            <div className='border-black border-b-4 border-l-4 w-12 h-12 absolute top-92 left-0'></div>
         </div>
         <div className="w-1/2 relative flex justify-center items-center">
             <svg className="absolute" xmlns="http://www.w3.org/2000/svg" width="307" height="307" viewBox="0 0 307 307" fill="#4B5461">
