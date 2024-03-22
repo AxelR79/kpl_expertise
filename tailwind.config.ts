@@ -15,18 +15,37 @@ const config: Config = {
       },
     },
     fontFamily: {
-      'navbar': ['"Roboto"', '"Montserrat"', 'Tahoma', 'Verdana', 'sans-serif'],
+      'montserrat': ['"Roboto"', '"Montserrat"', 'Tahoma', 'Verdana', 'sans-serif'],
     },
     backgroundColor: theme => ({
-      'red': '#E66352'
+      'red': '#E66352',
+      'grey': '#E4DFD7',
+      'black': '#4A5360',
      }),
     textColor: {
       'white-50': 'rgba(255, 255, 255, 0.5)',
       'white': '#fff',
+      'black': '#4A5360',
     },
+    borderColor: theme => ({
+      'black': '#4A5360',
+    }),
     screens: {
       'bs': '1330px',
       'ms': '1200px',
+    },
+    spacing: {
+      '110': '28rem',
+      '56': '14rem',
+      '20': '5rem',
+      '4': '1rem',
+      '8': '2rem',
+      '12': '3rem',
+      '16': '4rem',
+      '2': '0.5rem',
+      '84': '21rem',
+      '28': '7rem',
+      '0': '0',
     },
   },
   plugins: [],
